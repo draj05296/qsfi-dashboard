@@ -1,0 +1,43 @@
+Quantum Stability Forecast Index (QSFI) Architecture
+
+IBM Quantum Backend (IBM Fez)
+│
+▼
+Data Collection Layer
+(T1, T2, Gate Error, Readout Error)
+│
+▼
+Data Storage Layer
+(CSV Files - Day1, Day2, Day3, Day4...)
+│
+▼
+QSI Calculation
+QSI = (T1 + T2) / 2
+│
+▼
+Enhanced QSI
+QSI + Gate Error + Readout Error Analysis
+│
+▼
+Trend Analysis
+(Day-to-Day Stability Changes)
+│
+▼
+Qubit Classification
+• Consistently Strong
+• Consistently Weak
+• Improving
+• Oscillating
+│
+▼
+QSFI Model
+(Quantum Stability Forecast Index)
+│
+▼
+Future Risk Prediction
+• Low Risk
+• Medium Risk
+• High Risk
+│
+▼
+Recommended Qubits for Future Quantum Computations

@@ -1,0 +1,337 @@
+PROJECT:
+Quantum Stability Forecasting Using Historical Calibration Data
+
+Backend:
+ibm_fez
+
+Day 1 Results
+-------------
+
+Date:
+10-Jun-2026
+
+Total Qubits:
+156
+
+Missing T2:
+1 (Qubit 72)
+
+Average T1:
+146.10 us
+
+Average T2:
+104.41 us
+
+Best Qubit:
+Qubit 3
+QSI = 233.90
+
+Worst Qubit:
+Qubit 149
+QSI = 35.19
+
+Top Research Question:
+Can future qubit instability be predicted using historical T1 and T2 calibration trends?
+
+
+
+Day 2 Results
+-------------
+
+Date:
+11-Jun-2026
+
+Comparison:
+Day 1 vs Day 2
+
+Result:
+No change detected.
+
+QSI Changes:
+All qubits showed QSI_Change = 0.0
+
+Observation:
+IBM Fez calibration data appears unchanged between the two collection times.
+
+Conclusion:
+A longer observation period is required.
+Forecasting cannot begin until multiple calibration snapshots with actual changes are collected.
+
+Next Step:
+Collect Day 3 data tomorrow and compare again.
+
+
+Day 3 Results
+-------------
+
+Average T1: 135.46 us
+Average T2: 96.79 us
+
+Observation:
+IBM Fez calibration data changed on Day 3.
+
+Key Findings:
+- Average T1 decreased from 146.10 us to 135.46 us.
+- Average T2 decreased from 104.41 us to 96.79 us.
+- Qubit 15 became the most stable qubit.
+- Qubit 149 remained one of the least stable qubits.
+
+Research Insight:
+The calibration characteristics of IBM Fez changed between Day 2 and Day 3, indicating that qubit stability varies over time and may be forecastable.
+
+Day 3 Summary
+
+Average T1 decreased from 146.10 us to 135.46 us.
+Average T2 decreased from 104.41 us to 96.79 us.
+
+IBM Fez calibration changed between Day 2 and Day 3.
+
+Qubit 15 became the most stable qubit.
+
+Qubit 149 remained one of the least stable qubits.
+
+Trend analysis script requires correction because qubits were not matched correctly across days.
+
+
+
+Enhanced QSI Results
+--------------------
+
+Enhanced QSI incorporates:
+
+- T1
+- T2
+- Readout Error
+- Gate Error
+
+Key Findings:
+
+Best Qubit:
+Qubit 15
+Enhanced QSI = 218.84
+
+Worst Qubit:
+Qubit 17
+Enhanced QSI = -73.20
+
+Observation:
+Qubit 17 showed a very high readout error (42.65%), making it unreliable despite having relatively strong T1 and T2 values.
+
+Qubit 149 remained one of the weakest qubits, supporting earlier observations that some qubits consistently perform poorly.
+
+Research Insight:
+Including Gate Error and Readout Error reveals qubit quality more accurately than T1 and T2 alone.
+
+Correct Trend Analysis Results
+------------------------------
+
+Period:
+Day 1 to Day 3
+
+Trend Summary:
+
+Improving Qubits: 34
+Stable Qubits: 47
+Degrading Qubits: 75
+
+Top Improving Qubit:
+Qubit 20
+Change = +119.48
+
+Top Degrading Qubit:
+Qubit 142
+Change = -115.02
+
+Research Insight:
+
+A significant portion of the IBM Fez processor experienced degradation between Day 1 and Day 3.
+
+Trend analysis indicates that qubit quality changes over time and may be forecastable using historical calibration data.
+
+Day 4 Results
+-------------
+
+Average T1 = 142.32 us
+Average T2 = 104.25 us
+
+Observation:
+
+Compared to Day 3, IBM Fez showed recovery in both T1 and T2 averages.
+
+Average T1 increased by 6.86 us.
+Average T2 increased by 7.46 us.
+
+Best Qubit:
+Qubit 13
+QSI = 284.41
+
+Worst Qubit:
+Qubit 149
+QSI = 26.28
+
+Research Insight:
+
+Qubit stability does not change in a single direction.
+The processor showed degradation on Day 3 and partial recovery on Day 4.
+
+This suggests calibration quality fluctuates over time rather than continuously degrading.
+
+Qubit Category Analysis
+-----------------------
+
+Using 4 days of IBM Fez calibration data, qubits were classified into four categories:
+
+- Consistently Strong: 8
+- Consistently Weak: 17
+- Improving: 27
+- Oscillating: 104
+
+Observation:
+Most qubits showed oscillating behavior, meaning their stability fluctuated over time.
+
+Research Insight:
+Historical behavior is more useful than a single-day QSI score for selecting reliable qubits.
+
+
+QSFI Results
+------------
+
+Quantum Stability Forecast Index (QSFI) was developed using:
+
+- Historical QSI
+- Multi-day trends
+- Future risk classification
+
+Risk Summary:
+
+Low Risk Qubits: 20
+Medium Risk Qubits: 95
+High Risk Qubits: 41
+
+Best Forecasted Qubit:
+Qubit 13
+QSFI = 319.43
+
+Worst Forecasted Qubit:
+Qubit 149
+QSFI = 21.83
+
+Research Insight:
+
+Historical calibration trends can be used to estimate future qubit reliability.
+
+QSFI successfully identified a small subset of highly reliable qubits and a group of persistently weak qubits.
+
+
+Graph Analysis
+--------------
+
+A trend graph was created using average T1 and T2 values collected over four days.
+
+Observations:
+
+1. Day 1 and Day 2 remained stable.
+2. Day 3 showed a noticeable decrease in both T1 and T2.
+3. Day 4 showed recovery in both metrics.
+
+Research Insight:
+
+IBM Fez qubit stability exhibits dynamic fluctuations rather than a continuous increase or decrease.
+
+The processor experiences periods of stability, degradation, and recovery.
+
+Average Values:
+
+Day 1
+T1 = 146.10 us
+T2 = 104.41 us
+
+Day 2
+T1 = 146.10 us
+T2 = 104.41 us
+
+Day 3
+T1 = 135.46 us
+T2 = 96.79 us
+
+Day 4
+T1 = 142.32 us
+T2 = 104.25 us
+
+Day 5 Results
+-------------
+
+Average T1 = 143.92 us
+Average T2 = 102.99 us
+
+Best Qubit:
+Qubit 15
+QSI = 304.15
+
+Worst Qubit:
+Qubit 149
+QSI = 24.75
+
+Observation:
+
+Compared to Day 4, average T1 increased slightly while average T2 decreased slightly.
+
+Research Insight:
+
+IBM Fez remained relatively stable between Day 4 and Day 5.
+
+Qubit 15 became the strongest observed qubit in the dataset.
+
+Qubit 149 continued to exhibit poor performance and appears persistently weak across multiple days.
+
+
+Day 5 Qubit Category Analysis
+-----------------------------
+
+Using five days of IBM Fez data:
+
+Consistently Strong: 8
+Consistently Weak: 17
+Improving: 20
+Oscillating: 111
+
+Observation:
+Most qubits showed oscillating behavior across five days.
+
+Research Insight:
+Qubit stability is highly dynamic, and historical behavior is important for predicting future reliability.
+
+
+QSFI Version 2 Results
+----------------------
+
+Dataset:
+5 Days of IBM Fez Calibration Data
+
+Risk Distribution:
+
+Low Risk: 6
+Medium Risk: 134
+High Risk: 16
+
+Top Forecasted Qubits:
+
+1. Qubit 15
+QSFI = 256.78
+
+2. Qubit 13
+QSFI = 241.76
+
+Worst Forecasted Qubit:
+
+Qubit 149
+QSFI = 28.88
+
+Research Insight:
+
+Using five days of historical data significantly improved forecasting reliability.
+
+Only six qubits were classified as low risk, indicating that highly reliable qubits are rare and valuable resources within the processor.
+
+
+

@@ -1,0 +1,20 @@
+Mini Project Title:
+Quantum Stability Forecasting Dashboard using IBM Quantum Data
+
+Platform:
+Streamlit + Python
+
+Main Features:
+1. Show Day 1 to Day 5 calibration data
+2. Display average T1 and T2 trend graph
+3. Show QSI ranking
+4. Show Enhanced QSI ranking
+5. Classify qubits as Strong, Weak, Improving, Oscillating
+6. Show QSFI future risk prediction
+7. Recommend safest qubits for computation
+
+Dataset:
+IBM Fez calibration data collected using Qiskit
+
+Next Development Step:
+Create app.py using Streamlit

@@ -1,0 +1,44 @@
+PROJECT: Quantum Stability Forecasting Using Historical Calibration Data
+
+Current Status:
+
+* IBM Backend: ibm_fez
+* Day 1 data collected
+* QSI formula: (T1 + T2) / 2
+* 156 qubits analyzed
+* Missing T2: Qubit 72
+
+Day 1 Results:
+
+* Average T1 = 146.10 us
+* Average T2 = 104.41 us
+* Best Qubit = Qubit 3 (QSI 233.90)
+* Worst Qubit = Qubit 149 (QSI 35.19)
+
+Files Created:
+
+* quantum_csv.py
+* analyze_quantum.py
+* analyze_day.py
+* compare_days.py
+* research_notes.txt
+
+Research Goal:
+Predict future qubit instability using historical calibration trends (T1, T2, later Gate Error and Readout Error).
+
+Next Step:
+Collect Day 2 data and compare Day 1 vs Day 2 using compare_days.py.
+
+
+Latest Progress:
+
+Day 2 collected successfully.
+
+Comparison Results:
+No change detected between Day 1 and Day 2.
+
+Research Insight:
+IBM Fez calibration data remained unchanged over the observed period.
+
+Next Goal:
+Collect Day 3 data and continue monitoring for calibration changes.

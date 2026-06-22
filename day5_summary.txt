@@ -1,0 +1,24 @@
+Day 5 Completed
+
+Average T1 = 143.92 us
+Average T2 = 102.99 us
+
+Best Qubit:
+Qubit 15
+QSI = 304.15
+
+QSFI V2 Results:
+Low Risk = 6
+Medium Risk = 134
+High Risk = 16
+
+Strongest Forecasted Qubit:
+Qubit 15
+
+Weakest Forecasted Qubit:
+Qubit 149
+
+Status:
+Research Phase Complete
+Next Phase:
+Streamlit Dashboard Development
